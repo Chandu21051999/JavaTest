@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       // Expression result: 23 Implicit casting: 13.5 Explicit casting: 13
+
+       int a=15;
+
+       if(a>0){
+           System.out.println(a+ ": is Positive number");
+       }else if(a<0){
+           System.out.println( a+ ":is Negative number");
+       }else{
+           System.out.println("Zero ");
+       }
+              
+              
+
+
+
+
+    }
+}
+Outeput:
+15: is Positive number
+
+=== Code Execution Successful ===

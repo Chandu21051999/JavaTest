@@ -1,0 +1,40 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       // Expression result: 23 Implicit casting: 13.5 Explicit casting: 13
+
+Scanner scanner = new Scanner(System.in);
+System.out.println("Enter Year");
+int year= scanner.nextInt();
+       
+        if((year%4==0) && (year%100!=0) || (year%400==0) ) 
+        
+       {
+                      System.out.println(year +":Year is Leap year");
+}
+      else
+      {
+         
+           System.out.println(year +":Year is not  Leap year");
+              }
+
+    }      
+}
+Output:
+Enter Year
+2020
+2020:Year is Leap year
+
+Enter Year
+1900
+1900:Year is not  Leap year
+
+Enter Year
+2000
+2000:Year is Leap year
+
+=== Code Execution Successful ===
+=== Code Execution Successful ===
+=== Code Execution Successful ===
